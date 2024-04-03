@@ -108,6 +108,9 @@ a:hover {
     width: 200px;
     border: solid aqua;
     border-radius: 12em;
+    pointer-events: none;
+    user-select: none;
+
 }
 
 .top-page{
@@ -227,6 +230,8 @@ a:hover {
     width: 300px;
     border: solid aqua;
     border-radius: 12em;
+    pointer-events: none;
+    user-select: none;
 }
 
 .top-page{
@@ -327,6 +332,8 @@ a:hover {
     width: 300px;
     border: solid aqua;
     border-radius: 12em;
+    pointer-events: none;
+    user-select: none;
 }
 
 .top-page{
