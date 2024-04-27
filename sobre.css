@@ -1,311 +1,302 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-    
 
 
-    /*Config Global*/
-    
+/*Config Global*/
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 
-    /*Celular*/
+/*Celular*/
 
 
 @media (max-width: 460px) {
 
 
-    /*navegação*/
+    /*Área De navegação*/
 
 
-body{
-    background: linear-gradient( To right,rgb(1, 22, 64) 10% , rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90% );
-    min-height: 800px;
-}
-    
-a{
-    color: rgb(207, 203, 203);
-    text-decoration: none;
-}
-    
-a:hover {
-    color: white;
-}
-    
-.imgtop{
-    height: 200px;
-    width: 200px;
-    border-radius: 15em;
-    border: solid 3px rgb(73, 194, 242);
-    cursor: pointer;
-}
-    
-.centerimg{  
-    display: flex;
-    justify-content: center;
-    margin: 12em;
-}
+    body {
+        background: linear-gradient(To right, rgb(1, 22, 64) 10%, rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90%);
+        min-height: 800px;
+    }
 
-.centerimg2{
-    display: flex;
-    justify-content: center;
-}
-    
-.naveg{
-    text-align: center;
-    background-color: #24242e;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-    
-.nav-area{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
+    a {
+        color: rgb(207, 203, 203);
+        text-decoration: none;
+    }
 
-.nav-area li{
-    margin-left: 22px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    
-}
-    
-.nav-area li a:hover{
-    padding: 6px;
-    background-color: #505253;
-    color: white;
-    border-radius: 5px;
-}
+    a:hover {
+        color: white;
+    }
+
+    .imgtop {
+        height: 200px;
+        width: 200px;
+        border-radius: 15em;
+        border: solid 3px rgb(73, 194, 242);
+        cursor: pointer;
+    }
+
+    .centerimg {
+        display: flex;
+        justify-content: center;
+        margin: 12em;
+    }
+
+    .centerimg2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .naveg {
+        text-align: center;
+        background-color: #24242e;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .nav-area {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-area li {
+        margin-left: 22px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+
+    }
+
+    .nav-area li a:hover {
+        padding: 6px;
+        background-color: #505253;
+        color: white;
+        border-radius: 5px;
+    }
 
 
     /*Área Do Sobre*/
 
 
-.center-info{
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .center-info {
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-space-title {
+        width: 15em;
+        height: 3em;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', arial;
+    }
+
+    .div-space-text {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        border: solid white;
+        text-align: center;
+
+    }
+
+    .paragrafo1 {
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
+
+    .center-text {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-space {
+        margin-top: 2em;
+    }
+
+    .social-insta {
+        display: flex;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        user-select: none;
+    }
+
+    .logoinsta {
+        height: 4em;
+        width: 4em;
+    }
+
 }
 
-.div-space-title{
-    width: 15em;
-    height: 3em;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-}
 
-.titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Poppins', arial;
- }
-
-.div-space-text{
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-    border: solid white;
-    text-align: center;
-
-}
-
-.paragrafo1{
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
-
-.center-text{
-    
-    display: flex;
-    justify-content: center;
-}
-
-.top-space{
-    margin-top: 2em;
-}
-
-.social-insta{
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    user-select: none;
-}
-
-.logoinsta{
-    height: 4em;
-    width: 4em;
-}
-
-}
+/*Pc/Laptop*/
 
 
-
-    /*Pc/Laptop*/
-
-
-
-@media (min-width: 1000px){
-
-
-    /*Alterações Específicas*/
-
-
-h1{
-    font-size: 40px;
-}
-
-h2{
-    font-size: 30px;
-}
+@media (min-width: 1000px) {
 
 
     /*Área De navegação*/
 
 
-body{
+    body {
 
-    background: linear-gradient( To right,rgb(0, 21, 64) 10% , rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90% );
-    min-height: 800px;
-}
+        background: linear-gradient(To right, rgb(0, 21, 64) 10%, rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90%);
+        min-height: 800px;
+    }
 
-a{
-    color: rgb(207, 203, 203);
-    text-decoration: none;
-}
+    h1 {
+        font-size: 40px;
+    }
 
-a:hover {
-    color: white;
-}
+    h2 {
+        font-size: 30px;
+    }
+
+    a {
+        color: rgb(207, 203, 203);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+    }
 
 
-.naveg{
-    text-align: center;
-    background-color: #24242e;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
+    .naveg {
+        text-align: center;
+        background-color: #24242e;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
 
-.nav-area{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-.nav-area li{
-    margin-left: 32px;
-    margin-top: 20px;
-    letter-spacing: 2px;
+    .nav-area {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
 
-}
+    .nav-area li {
+        margin-left: 32px;
+        margin-top: 20px;
+        letter-spacing: 2px;
 
-.nav-area li a:hover{
-    padding: 6px;
-    background-color: #505253;
-    color: white;
-    border-radius: 5px;
-    
-}
+    }
+
+    .nav-area li a:hover {
+        padding: 6px;
+        background-color: #505253;
+        color: white;
+        border-radius: 5px;
+
+    }
 
 
     /*Área Do Sobre*/
 
 
-.center-info{
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .center-info {
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-space-title {
+        width: 15em;
+        height: 3em;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', arial;
+
+    }
+
+    .div-space-text {
+        border-radius: 20px;
+        border: solid white;
+        text-align: center;
+        width: 60em;
+        height: auto;
+
+    }
+
+    .paragrafo1 {
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
+
+    .center-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-space {
+        margin-top: 5em;
+    }
+
+    .social-insta {
+        display: flex;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        user-select: none;
+    }
+
+    .logoinsta {
+        height: 4em;
+        width: 4em;
+    }
+
 }
 
-.div-space-title{
-    width: 15em;
-    height: 3em;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-}
 
-.titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Poppins', arial;
-
- }
-
-.div-space-text{
-    border-radius: 20px;
-    border: solid white;
-    text-align: center;
-    width: 60em;
-    height: auto;
-
-}
-
-.paragrafo1{
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
-
-.center-text{
-    display: flex;
-    justify-content: center;
-}
-
-.top-space{
-    margin-top: 5em;
-}
-
-.social-insta{
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    user-select: none;
-}
-
-.logoinsta{
-    height: 4em;
-    width: 4em;
-}
-
-}
-
-
-
-       /*Tablet*/
-
+/*Tablet*/
 
 
 @media (min-width: 461px) and (max-width: 999px) {
@@ -314,137 +305,138 @@ a:hover {
     /*Área De navegação*/
 
 
-body{ 
+    body {
 
-    background: linear-gradient( To right,rgb(1, 22, 64) 10% , rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90% );       
-    min-height: 800px;
-}
-            
-a{
-    color: rgb(207, 203, 203);
-    text-decoration: none;
-}
-            
-a:hover {
-    color: white;
-}
-            
-.imgtop{
-    height: 230px;
-    width: 230px;
-    border-radius: 15em;
-    border: solid 3px #49C2F2;
-    cursor: pointer;
-}
-            
-.centerimg{     
-    display: flex;
-    justify-content: center;
-    margin: 12em;
-}
+        background: linear-gradient(To right, rgb(1, 22, 64) 10%, rgb(6, 42, 116) 60%, rgb(54, 25, 115) 90%);
+        min-height: 800px;
+    }
 
-.centerimg2{
-    display: flex;
-    justify-content: center;
-}
+    a {
+        color: rgb(207, 203, 203);
+        text-decoration: none;
+    }
 
-.naveg{
-    text-align: center;
-    background-color: #24242e;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-            
-.nav-area{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-.nav-area li{
-    margin-left: 32px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-            
-}
-            
-.nav-area li a:hover{
-    padding: 6px;
-    background-color: #505253;
-    color: white;
-    border-radius: 5px;
-}
+    a:hover {
+        color: white;
+    }
+
+    .imgtop {
+        height: 230px;
+        width: 230px;
+        border-radius: 15em;
+        border: solid 3px #49C2F2;
+        cursor: pointer;
+    }
+
+    .centerimg {
+        display: flex;
+        justify-content: center;
+        margin: 12em;
+    }
+
+    .centerimg2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .naveg {
+        text-align: center;
+        background-color: #24242e;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .nav-area {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-area li {
+        margin-left: 32px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+
+    }
+
+    .nav-area li a:hover {
+        padding: 6px;
+        background-color: #505253;
+        color: white;
+        border-radius: 5px;
+    }
 
 
     /*Área Do Sobre*/
 
 
-.center-info{
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .center-info {
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.div-space-title{
-    width: 15em;
-    height: 3em;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-}
+    .div-space-title {
+        width: 15em;
+        height: 3em;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+    }
 
-.titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Poppins', arial;
- }
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', arial;
+    }
 
-.div-space-text{
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-    border: solid white;
-    text-align: center;
+    .div-space-text {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        border: solid white;
+        text-align: center;
 
-}
+    }
 
-.paragrafo1{
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
+    .paragrafo1 {
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
 
-.center-text{
-    display: flex;
-    justify-content: center;
-}
+    .center-text {
+        display: flex;
+        justify-content: center;
+    }
 
-.top-space{
-    margin-top: 4em;
-}
+    .top-space {
+        margin-top: 4em;
+    }
 
-.social-insta{
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    user-select: none;
-}
+    .social-insta {
+        display: flex;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        user-select: none;
+    }
 
-.logoinsta{
-    height: 4em;
-    width: 4em;
-}
+    .logoinsta {
+        height: 4em;
+        width: 4em;
+    }
 
 }
