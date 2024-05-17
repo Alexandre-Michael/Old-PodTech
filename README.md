@@ -1,4 +1,4 @@
-Site oficial do projeto de extensão do Instituto Federal de Educação, Ciência e Tecnologia de Sergipe - Campus Lagarto.
+Site oficial do projeto de extensão PODTECH do Instituto Federal de Educação, Ciência e Tecnologia de Sergipe - Campus Lagarto.
 
 www.projetopodtech.com.br
 
